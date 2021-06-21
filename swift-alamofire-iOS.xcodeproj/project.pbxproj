@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B72A0BA377C912872CD4ED9 /* Pods_swift_alamofire_iOS_swift_alamofire_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7EF1D8BC219535BB47CC9BA /* Pods_swift_alamofire_iOS_swift_alamofire_iOSUITests.framework */; };
+		CF1C57680DBA0AD889125B5F /* Pods_swift_alamofire_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C0DDD8B7954FE47CBAE8BA6 /* Pods_swift_alamofire_iOSTests.framework */; };
+		EF9F0D7F90B4162EAFB051C5 /* Pods_swift_alamofire_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5B4F1025FE8E1D7C0D1DA0 /* Pods_swift_alamofire_iOS.framework */; };
 		FA4C5763268079DC00754E0A /* swift_alamofire_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C5762268079DC00754E0A /* swift_alamofire_iOSApp.swift */; };
 		FA4C5765268079DC00754E0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C5764268079DC00754E0A /* ContentView.swift */; };
 		FA4C5767268079E100754E0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4C5766268079E100754E0A /* Assets.xcassets */; };
@@ -33,6 +36,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BEF72C874536AEF6918AC4D /* Pods-swift-alamofire-iOS-swift-alamofire-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-alamofire-iOS-swift-alamofire-iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-swift-alamofire-iOS-swift-alamofire-iOSUITests/Pods-swift-alamofire-iOS-swift-alamofire-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		37F95BBB76EFED6013C3DE4C /* Pods-swift-alamofire-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-alamofire-iOSTests.release.xcconfig"; path = "Target Support Files/Pods-swift-alamofire-iOSTests/Pods-swift-alamofire-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D5B4F1025FE8E1D7C0D1DA0 /* Pods_swift_alamofire_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_alamofire_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		531C142289B2E9A832826C9F /* Pods-swift-alamofire-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-alamofire-iOS.release.xcconfig"; path = "Target Support Files/Pods-swift-alamofire-iOS/Pods-swift-alamofire-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		7C0DDD8B7954FE47CBAE8BA6 /* Pods_swift_alamofire_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_alamofire_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E82B30CEEFBF0DAE7D83464 /* Pods-swift-alamofire-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-alamofire-iOS.debug.xcconfig"; path = "Target Support Files/Pods-swift-alamofire-iOS/Pods-swift-alamofire-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BD5CE5114CE1B430525E0DD2 /* Pods-swift-alamofire-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-alamofire-iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-swift-alamofire-iOSTests/Pods-swift-alamofire-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7EF1D8BC219535BB47CC9BA /* Pods_swift_alamofire_iOS_swift_alamofire_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_alamofire_iOS_swift_alamofire_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF53AD5CD10653EA0923DF0F /* Pods-swift-alamofire-iOS-swift-alamofire-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-alamofire-iOS-swift-alamofire-iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-swift-alamofire-iOS-swift-alamofire-iOSUITests/Pods-swift-alamofire-iOS-swift-alamofire-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA4C575F268079DC00754E0A /* swift-alamofire-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-alamofire-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4C5762268079DC00754E0A /* swift_alamofire_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_alamofire_iOSApp.swift; sourceTree = "<group>"; };
 		FA4C5764268079DC00754E0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF9F0D7F90B4162EAFB051C5 /* Pods_swift_alamofire_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF1C57680DBA0AD889125B5F /* Pods_swift_alamofire_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +80,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B72A0BA377C912872CD4ED9 /* Pods_swift_alamofire_iOS_swift_alamofire_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		129EC10FE1582D87E94A9E99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E82B30CEEFBF0DAE7D83464 /* Pods-swift-alamofire-iOS.debug.xcconfig */,
+				531C142289B2E9A832826C9F /* Pods-swift-alamofire-iOS.release.xcconfig */,
+				DF53AD5CD10653EA0923DF0F /* Pods-swift-alamofire-iOS-swift-alamofire-iOSUITests.debug.xcconfig */,
+				1BEF72C874536AEF6918AC4D /* Pods-swift-alamofire-iOS-swift-alamofire-iOSUITests.release.xcconfig */,
+				BD5CE5114CE1B430525E0DD2 /* Pods-swift-alamofire-iOSTests.debug.xcconfig */,
+				37F95BBB76EFED6013C3DE4C /* Pods-swift-alamofire-iOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		954BDDE66B01B25E12CCF9E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D5B4F1025FE8E1D7C0D1DA0 /* Pods_swift_alamofire_iOS.framework */,
+				D7EF1D8BC219535BB47CC9BA /* Pods_swift_alamofire_iOS_swift_alamofire_iOSUITests.framework */,
+				7C0DDD8B7954FE47CBAE8BA6 /* Pods_swift_alamofire_iOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FA4C5756268079DC00754E0A = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +118,8 @@
 				FA4C5773268079E100754E0A /* swift-alamofire-iOSTests */,
 				FA4C577E268079E100754E0A /* swift-alamofire-iOSUITests */,
 				FA4C5760268079DC00754E0A /* Products */,
+				129EC10FE1582D87E94A9E99 /* Pods */,
+				954BDDE66B01B25E12CCF9E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA4C5784268079E100754E0A /* Build configuration list for PBXNativeTarget "swift-alamofire-iOS" */;
 			buildPhases = (
+				96F8D3995DF088FA4DDB35C8 /* [CP] Check Pods Manifest.lock */,
 				FA4C575B268079DC00754E0A /* Sources */,
 				FA4C575C268079DC00754E0A /* Frameworks */,
 				FA4C575D268079DC00754E0A /* Resources */,
+				DC16D4D7956BF868468DE8F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA4C5787268079E100754E0A /* Build configuration list for PBXNativeTarget "swift-alamofire-iOSTests" */;
 			buildPhases = (
+				502A46007F9599E7EB9B8A25 /* [CP] Check Pods Manifest.lock */,
 				FA4C576C268079E100754E0A /* Sources */,
 				FA4C576D268079E100754E0A /* Frameworks */,
 				FA4C576E268079E100754E0A /* Resources */,
@@ -172,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA4C578A268079E100754E0A /* Build configuration list for PBXNativeTarget "swift-alamofire-iOSUITests" */;
 			buildPhases = (
+				93490D0CC420277502EB2183 /* [CP] Check Pods Manifest.lock */,
 				FA4C5777268079E100754E0A /* Sources */,
 				FA4C5778268079E100754E0A /* Frameworks */,
 				FA4C5779268079E100754E0A /* Resources */,
+				545A07DA8ED004EB63B3260E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		502A46007F9599E7EB9B8A25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-alamofire-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		545A07DA8ED004EB63B3260E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-alamofire-iOS-swift-alamofire-iOSUITests/Pods-swift-alamofire-iOS-swift-alamofire-iOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-alamofire-iOS-swift-alamofire-iOSUITests/Pods-swift-alamofire-iOS-swift-alamofire-iOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swift-alamofire-iOS-swift-alamofire-iOSUITests/Pods-swift-alamofire-iOS-swift-alamofire-iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93490D0CC420277502EB2183 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-alamofire-iOS-swift-alamofire-iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96F8D3995DF088FA4DDB35C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-alamofire-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC16D4D7956BF868468DE8F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-alamofire-iOS/Pods-swift-alamofire-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-alamofire-iOS/Pods-swift-alamofire-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swift-alamofire-iOS/Pods-swift-alamofire-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA4C575B268079DC00754E0A /* Sources */ = {
@@ -354,6 +503,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -408,12 +558,14 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		FA4C5785268079E100754E0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E82B30CEEFBF0DAE7D83464 /* Pods-swift-alamofire-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -428,13 +580,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.catalina.swift-alamofire-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		FA4C5786268079E100754E0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 531C142289B2E9A832826C9F /* Pods-swift-alamofire-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,13 +602,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.catalina.swift-alamofire-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		FA4C5788268079E100754E0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD5CE5114CE1B430525E0DD2 /* Pods-swift-alamofire-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,6 +631,7 @@
 		};
 		FA4C5789268079E100754E0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F95BBB76EFED6013C3DE4C /* Pods-swift-alamofire-iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +653,7 @@
 		};
 		FA4C578B268079E100754E0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF53AD5CD10653EA0923DF0F /* Pods-swift-alamofire-iOS-swift-alamofire-iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -517,6 +673,7 @@
 		};
 		FA4C578C268079E100754E0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BEF72C874536AEF6918AC4D /* Pods-swift-alamofire-iOS-swift-alamofire-iOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
