@@ -19,6 +19,8 @@ user notificationCenter didReceive: {
     };
 }
 
+# deviceToken for iPhone 12 pro: 7ACD7C85A9F1FF187BB3487522BE8DA643A681A30E16345C447478ABED2AD48B
+
 target 'swift-alamofire-iOS' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
